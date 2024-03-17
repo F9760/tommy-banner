@@ -67,6 +67,15 @@ header {
 }
 
 
+/* ロゴ制作 */
+.rogo a {
+  color: rgb(255, 0, 140);
+}
+
+
+
+
+
 /* スマホ版 */
 
 @media(max-width:800px){
@@ -87,7 +96,5 @@ header {
   h2 {
     margin: 16px 0;
   }
-
-
 
 }
