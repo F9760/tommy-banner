@@ -25,7 +25,7 @@ p {
 
 a {
   text-decoration: none;
-  color: #555;
+  color: rgb(255, 0, 140);
 }
 
 /* header */
@@ -65,13 +65,6 @@ header {
 .row img {
   width: 30%;
 }
-
-
-/* ロゴ制作 */
-.rogo a {
-  color: rgb(255, 0, 140);
-}
-
 
 
 
