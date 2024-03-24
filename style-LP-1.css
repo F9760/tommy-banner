@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+header {
+  background: rgb(255, 150, 173);
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Dancing Script", cursive;
+  padding: 4px;
+}
+
+.recom {
+  width: 80%;
+  margin: 0px auto;
+}
+
+.function {
+  width: 100%;
+  margin: 16px auto 8px;
+}
+
+.campaign {
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (min-width:800px) {
+  body {
+    width: 60%;
+    margin: auto;
+    background: rgb(255, 220, 228);
+  }
+  div {
+    background: white;
+  }
+  header {
+    padding: 8px;
+  }
+  header h1 {
+    font-size: 56px;
+  }
+  .recom {
+    margin: 16px auto;
+  }
+  .function {
+    margin: 32px auto 16px;
+  }
+}
