@@ -1,258 +1,179 @@
 <!DOCTYPE html>
 <html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Allura&family=Cinzel:wght@400..900&family=Great+Vibes&family=Pinyon+Script&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/destyle.css@3.0.2/destyle.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>F9760</title>
+  </head>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Petit+Formal+Script&family=Yomogi&display=swap"
-    rel="stylesheet">
-
-  <link rel="stylesheet" href="style.css">
-  <title>F9760</title>
-</head>
-
-<body>
-  <header>
-    <div class="top">
-      <h1>F9760</h1>
-      <div class="menu">
-        <a href="#jp-about">About</a>
-        <a href="#jp-works">Works</a>
-        <!-- <a href="#jp-contact">Contact</a> -->
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <div class="logo">
+            <a href="index.html">A.K Portfolio</a>
+          </div>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#works">Works</a></li>
+            <li><a href="#skills">Skills</a></li>
+          </ul>
+          <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+        </nav>
       </div>
-    </div>
-  </header>
+    </header>
+    <main>
+      <section class="profile">
+        <div class="mainvisual">
+          <div class="white"></div>
+          <div class="text">
+            <h1>An Kato<br />Portfolio</h1>
+            <p>
+              思い通りのカタチに、依頼者様に寄り添うデザイナー。<br />お気軽にご相談ください。お仕事お待ちしております！
+            </p>
+          </div>
+        </div>
+      </section>
 
-  <section id="#jp-about" class="profile">
-    <div class="row">
-      <img src="profile.png" width="400">
-      <div class="about">
-        <h2>Profile</h2>
-        <p>
-          女性かけだしWebデザイナーです。女性らしい可愛いデザインや、アニメやゲーム等のキャラクターを使用したデザインが得意です。
-        </p>
+      <section class="about" id="about">
+        <div class="para">
+          <h2>About</h2>
+          <h3 class="subtitle">じぶんについて</h3>
+          <div class="row">
+            <img src="images/me.jpg" width="400" />
+            <p>
+              埼玉生まれの22歳女性。<br /><br />今年の春に大学を卒業し、現在Webデザイナーになる為に猛勉強中。<br />特に、女性向けのテイストや可愛いテイストのデザインが得意。<br /><br />好きなことはゲームをしたりアニメを観ること、可愛いお洋服を作ること。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="service">
+        <div class="para">
+          <h2>Service</h2>
+          <h3 class="subtitle">サービス</h3>
+          <div class="row">
+            <div class="services">
+              <h3>Webデザイン</h3>
+              <img src="images/usa-1.JPG" width="200px" />
+              <p>
+                HP・LP制作を承っております。スマートフォンデバイスを想定したレスポンシブ対応のWebデザインを検討します。
+              </p>
+            </div>
+            <div class="services">
+              <h3>グラフィックス</h3>
+              <img src="images/usa-2.jpg" width="200px" />
+              <p>
+                チラシや名刺、ショップカード等の紙媒体のデザイン。また、ロゴ制作や簡単なオリジナルイラストも製作可能です。
+              </p>
+            </div>
+            <div class="services">
+              <h3>コーディング</h3>
+              <img src="images/usa-3.jpg" width="200px" />
+              <p>
+                HTML、CSSを用いてデザインを忠実に再現いたします。JavaScriptで簡単な動きをつけることも可能です。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="works" id="works">
+        <div class="para">
+          <h2>Works</h2>
+          <h3 class="subtitle">せいさくぶつ</h3>
+          <div class="flex-container">
+            <div class="flex-item">
+              <a href="works.html#jp-HP"><img src="images/beauty-none.jpg" width="400" /></a>
+              <p>HP・LP</p>
+            </div>
+            <div class="flex-item">
+              <a href="works.html#jp-banner"><img src="images/banner-5-none.jpg" width="400" /></a>
+              <p>バナー広告</p>
+            </div>
+            <div class="flex-item">
+              <a href="works.html#jp-flyer"><img src="images/goods-Vtuber-none.jpg" width="400" /></a>
+              <p>チラシ・その他</p>
+            </div>
+          </div>
+          <a href="works.html"><div class="btn">More</div></a>
+        </div>
+      </section>
+
+      <section class="skills" id="skills">
+        <div class="para">
+          <h2>Skills</h2>
+          <h3 class="subtitle">できること</h3>
+          <div class="flex-container">
+            <div class="skill">
+              <img src="images/Ps.png" width="100" />
+              <div class="skill-1">
+                <h3>Photoshop</h3>
+                <p>画像の切り抜きや貼り付け、写真の合成などに使用します。</p>
+              </div>
+            </div>
+            <div class="skill">
+              <img src="images/Ai.png" width="100" />
+              <div class="skill-1">
+                <h3>illustrator</h3>
+                <p>ロゴやイラストなどのデザイン作成に使用します。</p>
+              </div>
+            </div>
+            <div class="skill">
+              <img src="images/VS.png" width="100" />
+              <div class="skill-1">
+                <h3>VSCode</h3>
+                <p>サイト構築を行う際にこちらでコードを書きます。</p>
+              </div>
+            </div>
+            <div class="skill">
+              <img src="images/Gt.jpg" width="100" />
+              <div class="skill-1">
+                <h3>GitHub</h3>
+                <p>サイトをアップロードする際に使用します。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section class="contact">
+        <div class="para">
+          <h2>Contact</h2>
+          <h3>おといあわせ</h3>
+          <p>
+            デザインでのお悩み、 いっしょに解決しましょう！<br />お仕事のご相談やご質問など、まずはお気軽にご相談ください。
+          </p>
+          <a href="#">contact me</a>
+        </div>
+      </section> -->
+    </main>
+    <fotter>
+      <div class="container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#works">Works</a></li>
+          <li><a href="#skills">Skills</a></li>
+        </ul>
+        <p class="coppyright">©2024 AnnKato. All rights reserved.</p>
       </div>
-    </div>
-  </section>
-
-  <section id="jp-works" class="lp">
-
-    <div class="title">
-      <h1>LP ランディングページ制作</h1>
-      <p>今までに制作した架空の商業用のLPです。<br>それぞれの作品について紹介します。</p>
-    </div>
-    <div class="lace"></div>
-
-    <div class="row">
-      <img src="LP-1.jpg" width="400">
-      <div class="about">
-        <h2>About</h2>
-        <p>
-          女性向け洗顔のLPです。<br>毛穴に悩む20代の若い女性に向けてデザインしました。<br>春の季節に発売した商品なので桜色や空の淡い色を取り入れました。泡を全体に配置したり、グラデーションや波を使い、躍動感のあるデザインに仕上げました。
-        <h2>Period</h2>
-        <p>
-          2024 約3日(NEW!)
-        </p>
-        <button><a href="LP-1.html">詳しくはこちらから</a></button>
-      </div>
-    </div>
-  </section>
-
-  <section class="banner">
-
-    <div class="title">
-      <h1>Banner バナー制作</h1>
-      <p>今までに制作した架空の商業用のバナーです。<br>それぞれの作品について紹介します。
-      </p>
-    </div>
-    <div class="lace"></div>
-
-    <div class="row">
-      <img src="banner-game.jpg" width="400">
-      <div class="about">
-        <h2>About</h2>
-        <p>
-          ゲームのバナーです。<br>一瞬で目が惹かれ、伝えたい文がすぐに伝わるよう心掛けて制作しました。<br>文字を主張するために光りや影の入れ方を工夫しました。<br>使用素材：pixiv<a
-          href="https://www.pixiv.net/users/81433479"> ゴリラの素材屋さん </a>様</p>
-        </p>
-        <h2>Period</h2>
-        <p>
-          2024 約2時間(NEW!)
-        </p>
-      </div>
-    </div>
-
-    <div class="row">
-      <img src="banner-toreka.jpg" width="400">
-      <div class="about">
-        <h2>About</h2>
-        <p>
-          トレカのバナーです。<br>ピンクを基調としポップで可愛らしいイメージで制作しました。一瞬で目が惹かれるようなデザインを心がけ、カードのきらめき感を前面に押し出しました。<br>
-        </p>
-        <h2>Period</h2>
-        <p>
-          2024 約2時間半
-        </p>
-      </div>
-    </div>
-
-    <div class="row">
-      <img src="banner-toreka-2.jpg" width="400">
-      <div class="about">
-        <h2>About</h2>
-        <p>
-          トレカのバナーです。<br>炎や雷を使用し、かっこよくインパクトがあるデザインにしました。<br>中二心をくすぐるようなデザインにすることに力を入れました。
-        </p>
-        <h2>Period</h2>
-        <p>
-          2024 約2時間
-        </p>
-      </div>
-    </div>
-
-    <div class="row">
-      <img src="banner-1.jpg" width="400">
-      <div class="about">
-        <h2>About</h2>
-        <p>
-          春の女子旅特集のバナーです。<br>女子学生に向けたイメージで、可愛らしく明るい雰囲気で制作しました。<br>可愛い素材を取り入れることで旅の楽しみやわくわく感を出し、お手軽に素敵な思い出作りができるようなデザインに仕上げました。
-        </p>
-        <h2>Period</h2>
-        <p>
-          2024 約2時間
-        </p>
-      </div>
-    </div>
-
-    <div class="row">
-      <img src="banner-2.jpg" width="400">
-      <div class="about">
-        <h2>About</h2>
-        <p>
-          女性向けのスキンケアクリームのバナーです。<br>柔らかさや軽やかさを印象としたクリームのバナーの為、全体を明るめのトーンで構成しました。<br>丸みを帯びた形を多く取り入れたり、透明感のある白い光を全体に配置することで、ふわふわな雰囲気に仕上げました。
-        </p>
-        <h2>Period</h2>
-        <p>
-          2024 約2時間
-        </p>
-      </div>
-    </div>
-
-    <div class="row">
-      <img src="banner-3.jpg" width="400">
-      <div class="about">
-        <h2>About</h2>
-        <p>
-          男性向けの集客セミナーのバナーです。<br>青色をベースに目立たせたい内容を黄色にし、メリハリのある分かりやすいデザインに仕上げました。<br>色々な方に見に来てもらえるように、直線と曲線を使い分け堅くなりすぎないよう心がけました。
-        </p>
-        <h2>Period</h2>
-        <p>
-          2024 約1時間
-        </p>
-      </div>
-    </div>
-
-    <div class="row">
-      <img src="banner-4.jpg" width="400">
-      <div class="about">
-        <h2>About</h2>
-        <p>
-          野菜ジュースのバナーです。<br>安心して注文してもらいやすいように、無添加を強調し健康的で安心安全なイメージで仕上げました。<br>差し色にオレンジを使用し、フレッシュさを出しました。
-        </p>
-        <h2>Period</h2>
-        <p>
-          2024 約2時間半
-        </p>
-      </div>
-    </div>
-
-    <div class="row">
-      <img src="banner-5.jpg" width="400">
-      <div class="about">
-        <h2>About</h2>
-        <p>
-          子ども向けの英会話教室のバナーです。<br>赤ちゃんからでも楽しんで英語に触れてもらいたいという思いから、明るくカラフルな色を使用し優しくポップな雰囲気でまとめました。
-        </p>
-        <h2>Period</h2>
-        <p>
-          2024 約1時間半
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <section class="flyer">
-    <div class="title">
-      <h1>Flyer フライヤー制作</h1>
-      <p>今までに制作した架空の商業用のフライヤーです。<br>それぞれの作品について紹介します。</p>
-    </div>
-    <div class="lace"></div>
-
-    <div class="row">
-      <img src="goods-Vtuber.jpg" width="400">
-      <div class="about">
-        <h2>About</h2>
-        <p>
-          架空のVtuber「水守なな」さんのグッズ販売のフライヤーです。<br>シンプルでわかりやすくまとめ、なおかつ可愛く透明感のあるデザインに仕上げました。<br>妖精のキラキラさや儚さを出すために淡い色を使用し、テーマカラーの緑を軸におしゃれな色合いになるよう工夫しました。<br>使用素材：pixiv<a
-            href="https://www.pixiv.net/users/81433479"> ゴリラの素材屋さん </a>様</p>
-        <h2>Period</h2>
-        <p>
-          2024 約3時間(NEW!)
-        </p>
-      </div>
-    </div>
-
-  </section>
-
-  <section class="logo">
-
-    <div class="title">
-      <h1>Logo ロゴ制作</h1>
-      <p>今までに制作した架空の商業用のロゴです。<br>それぞれの作品について紹介します。</p>
-    </div>
-    <div class="lace"></div>
-
-    <div class="row">
-      <img src="logo-Vtuber.jpg" width="400">
-      <div class="about">
-        <h2>About</h2>
-        <p>
-          架空のVtuber「天使くるる」さんのロゴです。<br>トレードマークの天使の羽と輪とキャンディーを大きく配置しました。<br>パステルカラーでまとめ、空に浮かぶふわふわな雲やきらめく星などをイメージして制作しました。<br>使用素材：picrew<a
-            href="https://picrew.me/ja/search/creator?crid=1560771"> ♦絢瀬 </a>様</p>
-        <h2>Period</h2>
-        <p>
-          2024 約5時間
-        </p>
-      </div>
-    </div>
-
-    <div class="row">
-      <img src="logo-Vtuber2.jpg" width="400">
-      <div class="about">
-        <h2>About</h2>
-        <p>
-          架空のVtuber「うさパイセン」さんのロゴです。<br>シルバーのアクセサリーを全体に配置しました。<br>イメージカラーのピンクを使用していますが、文字のところどころに棘をつけ、可愛いすぎず辛めのデザインになるよう心掛けました。<br>使用素材：picrew<a
-            href="https://picrew.me/ja/search/creator?crid=4006196"> くろまと </a>様</p>
-        <h2>Period</h2>
-        <p>
-          2024 約4時間
-        </p>
-      </div>
-    </div>
-  </section>
-
-
-
-  <div class="title">
-    <p>ご覧いただきありがとうございました。</p>
-  </div>
-
-
-
-</body>
-
+    </fotter>
+    <script src="script.js"></script>
+  </body>
 </html>
